@@ -1,4 +1,13 @@
 
+Logging:
+  level:
+    ROOT: DEBUG
+    org.hibernate.SQL: DEBUG
+    com.sunglowsys: DEBUG
+
+server:
+  port: 8081
+
 
 spring:
   datasource:
@@ -15,5 +24,3 @@ spring:
       database-platform: org.hibernate.dialect.MysqlDialect
       open-in-view: false
       generate-ddl: true
-
-
